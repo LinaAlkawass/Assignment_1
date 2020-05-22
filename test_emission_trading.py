@@ -10,7 +10,7 @@ def test_buy_or_sell():
 
 
 def test_trading():
-    assert trading(20, 15) == True
+    assert trading(20, 15)== True
 
 def test_trading():
     assert trading(20, 15) == print('Trading is possible...')
