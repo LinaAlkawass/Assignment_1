@@ -9,7 +9,7 @@ def buy_or_sell(allocation, emissions):
     result = allocation - emissions
     if result > 0:  # if Allocation – Emissions > 0: the company is a seller
         seller = True
-        number_seller = number_seller + 1
+        number_seller = number_seller+1
         print('The company can sell allocations')
     else:
         seller = False
