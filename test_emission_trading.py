@@ -14,4 +14,4 @@ def test_trading():
 
 
 def test_trading():
-    assert trading(20, 15) == print('Trading is possible...')
+    assert trading(5, 10) == print('Trading is possible...')
